@@ -24,7 +24,7 @@ body{
     padding-left: 4%;
 }
 .btn {
-  background-color: #989b9e; /* Green */
+  background-color: #989b9e; 
   border: none;
   color: white;
   width: 30.7%;
@@ -83,15 +83,71 @@ body{
   background-color: #fff;
 }
 .cart{
+  margin-left: 78%;
   height: 30px;
   width: 20px;
   cursor: pointer;
 }
-.h4{
+h4{
   position: absolute;
-  margin-left: 75%;
+  margin-left: 2.5%;
+  top: 10%;
+  color: rgb(0, 0, 0);
 }
 .checkout.active{
   right: 0;
   transition: ease-in-out .4s;
+}
+ul.list {
+  list-style-type: none;
+}
+.checkout-card h1{
+  font-size: 16px;
+  font-weight: bolder;
+}
+.quantity{
+  display: flex;
+}
+.quantity>.q{
+  width: 20%;
+}
+.q-left{
+  display: flex;
+}
+.q-button{
+  background-color: #999;
+  padding: 12px!important;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.q-left p{
+  margin: 0 10px;
+  align-items: center;
+  margin-top: 18px;
+  cursor: pointer;
+}
+.total{
+  margin-top: 99%;
+  padding: 5%;
+}
+.sub{
+  margin-left: 5%;
+  background-color: #000; 
+  border: none;
+  color: white;
+  width: 30.7%;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.sub:hover {background-color: #666}
+
+.sub:active {
+  background-color: #666;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
