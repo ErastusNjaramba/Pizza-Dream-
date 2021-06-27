@@ -1,9 +1,10 @@
 .container{
   border: 2px solid #989b9e;
-  height: 650px;
-  width: 700px;
+  height: 750px;
+  width: 800px;
   margin-left: 30%;
-  margin-top: 10%;
+  margin-top: 5%;
+  padding: 25px;
   background-color: #ffffff;
 }
 .header{
@@ -11,4 +12,29 @@
 }
 .pizza{
     padding-left: 4%;
+}
+.btn {
+  background-color: #989b9e; /* Green */
+  border: none;
+  color: white;
+  width: 30.7%;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.btn.active{
+  background-color: #4a4a4a;
+}
+.btn:first-child{
+  margin-left: 0;
+}
+.btn:last-child{
+  margin-right: 0;
+}
+.checkBox{
+  margin-top: 3%;
 }
