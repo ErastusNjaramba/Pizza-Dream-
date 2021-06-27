@@ -1,0 +1,14 @@
+.container{
+  border: 2px solid #989b9e;
+  height: 650px;
+  width: 700px;
+  margin-left: 30%;
+  margin-top: 10%;
+  background-color: #ffffff;
+}
+.header{
+  padding: 4%;
+}
+.pizza{
+    padding-left: 4%;
+}
