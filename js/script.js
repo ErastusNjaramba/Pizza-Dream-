@@ -54,13 +54,13 @@ $(document).ready(()=>{
       let arr = {}
       if(trg.classList.value == "btn pizzaSize"){
         switch (trg.innerText) {
-          case 'Medium':
-            addToObject(arr, 'pizzaPrize', pizza.medium)
-            break;
-
           case 'Large':
             addToObject(arr, 'pizzaPrize', pizza.large)
             break;
+
+          case 'Medium':
+            addToObject(arr, 'pizzaPrize', pizza.medium)
+            break;  
 
           case 'Small':
             addToObject(arr, 'pizzaPrize', pizza.small)
@@ -74,12 +74,12 @@ $(document).ready(()=>{
 
       else if(trg.classList.value == "btn toppings"){
         switch (trg.innerText) {
-          case 'Medium':
-            arr['toppingsPrize'] = toppings.medium;
-            break;
-
           case 'Large':
             arr['toppingsPrize'] = toppings.large;
+            break;
+
+          case 'Medium':
+            arr['toppingsPrize'] = toppings.medium;
             break;
 
           case 'Small':

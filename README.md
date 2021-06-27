@@ -17,7 +17,7 @@ No known bugs yet
 * CSS
 * Javascript
 ## Link to live site on github pages
-[Github](https://erastusnjaramba.github.io/Portfolio-Landing-Page/)
+[Github](https://erastusnjaramba.github.io/Pizza-Dream-/)
 
 ## Support and contact details
 If you want to contact me, email me on erastus11njaramba@gmail.com
